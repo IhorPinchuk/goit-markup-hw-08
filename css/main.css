@@ -238,7 +238,7 @@ body {
 }
 
 .modal {
-  width: 450px;
+  max-width: 450px;
   min-height: 609px;
   padding: 40px;
   background-color: var(--bg-modal);
@@ -660,7 +660,6 @@ body {
 }
 .mob-menu > .container {
   height: 100%;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
@@ -1217,9 +1216,15 @@ body {
 }
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-portfolio-color);
+}
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .portfolio__nav {
