@@ -215,14 +215,15 @@
   height: 100vh;
   background-color: var(--bg-mob-menu);
   padding-top: 48px;
-  padding-bottom: 48px;
+  // padding-bottom: 48px;
   padding-left: 40px;
   > .container {
     height: 100%;
-    // display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
+    padding-bottom: 48px;
   }
   @media screen and (min-width: 768px) {
     display: none;
@@ -257,12 +258,15 @@
 .mob-menu__tel {
   display: block;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 28px;
   line-height: calc(40 / 34);
   letter-spacing: 0.02em;
   color: var(--accent-color);
   text-decoration: none;
   margin-bottom: 32px;
+  @media screen and (min-width: 480px) {
+      font-size: 34px;
+    }
 }
 
 .mob-menu__mail {
@@ -281,9 +285,12 @@
 
 .mob-soc__link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 12px;
   line-height: calc(22 / 18);
   letter-spacing: 0.02em;
   color: var(--accent-color);
   text-decoration: none;
+  @media screen and (min-width: 480px) {
+      font-size: 18px;
+    }
 }
