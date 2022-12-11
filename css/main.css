@@ -239,7 +239,7 @@ body {
 
 .modal {
   width: 290px;
-  height: 100vh;
+  min-height: 100vh;
   padding: 40px;
   background-color: var(--bg-modal);
   border-radius: 4px;
