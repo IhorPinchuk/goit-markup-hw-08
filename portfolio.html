@@ -31,12 +31,12 @@
           >
           <ul class="menu list">
             <li class="menu__item">
-              <a class="menu__link" href="./index.html"
-                >Студія</a
-              >
+              <a class="menu__link" href="./index.html">Студія</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link menu__link--current" href="./portfolio.html">Портфоліо</a>
+              <a class="menu__link menu__link--current" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
             <li class="menu__item">
               <a class="menu__link" href="">Контакти</a>
@@ -95,14 +95,14 @@
             </button>
             <ul class="mob-menu__list list">
               <li class="mob-menu__item">
-                <a
-                  class="mob-menu__link"
-                  href="./index.html"
-                  >Студія</a
-                >
+                <a class="mob-menu__link" href="./index.html">Студія</a>
               </li>
               <li class="mob-menu__item">
-                <a class="mob-menu__link mob-menu__link--current" href="./portfolio.html">Портфоліо</a>
+                <a
+                  class="mob-menu__link mob-menu__link--current"
+                  href="./portfolio.html"
+                  >Портфоліо</a
+                >
               </li>
               <li class="mob-menu__item">
                 <a class="mob-menu__link" href="">Контакти</a>
@@ -167,13 +167,36 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/8-portfolio.jpg"
-                    alt="Ноутбук"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/8-portfolio.jpg    1x,
+                        ./images/8-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/8-portfolio-tab.jpg    1x,
+                        ./images/8-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/8-portfolio-mob.jpg    1x,
+                        ./images/8-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/8-portfolio.jpg"
+                      alt="Ноутбук"
+                      width="450"
+                    />
+                  </picture>
+
                   <p class="portfolio__top-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -189,13 +212,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/9-portfolio.jpg"
-                    alt="Два баскетболісти"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/9-portfolio.jpg    1x,
+                        ./images/9-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/9-portfolio-tab.jpg    1x,
+                        ./images/9-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/9-portfolio-mob.jpg    1x,
+                        ./images/9-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/9-portfolio.jpg"
+                      alt="Два баскетболісти"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -214,13 +259,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/10-portfolio.jpg"
-                    alt="Назва ресторану на фоні риби"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/10-portfolio.jpg    1x,
+                        ./images/10-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/10-portfolio-tab.jpg    1x,
+                        ./images/10-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/10-portfolio-mob.jpg    1x,
+                        ./images/10-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/10-portfolio.jpg"
+                      alt="Назва ресторану на фоні риби"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -237,13 +304,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/11-portfolio.jpg"
-                    alt="Навушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/11-portfolio.jpg    1x,
+                        ./images/11-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/11-portfolio-tab.jpg    1x,
+                        ./images/11-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/11-portfolio-mob.jpg    1x,
+                        ./images/11-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/11-portfolio.jpg"
+                      alt="Навушники"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -260,13 +349,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/12-portfolio.jpg"
-                    alt="Біла і коричнева коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/12-portfolio.jpg    1x,
+                        ./images/12-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/12-portfolio-tab.jpg    1x,
+                        ./images/12-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/12-portfolio-mob.jpg    1x,
+                        ./images/12-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/12-portfolio.jpg"
+                      alt="Біла і коричнева коробки"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -283,13 +394,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/13-portfolio.jpg"
-                    alt="Моноблок"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/13-portfolio.jpg    1x,
+                        ./images/13-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/13-portfolio-tab.jpg    1x,
+                        ./images/13-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/13-portfolio-mob.jpg    1x,
+                        ./images/13-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/13-portfolio.jpg"
+                      alt="Моноблок"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -308,13 +441,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/14-portfolio.jpg"
-                    alt="Книга"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/14-portfolio.jpg    1x,
+                        ./images/14-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/14-portfolio-tab.jpg    1x,
+                        ./images/14-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/14-portfolio-mob.jpg    1x,
+                        ./images/14-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/14-portfolio.jpg"
+                      alt="Книга"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -331,13 +486,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/15-portfolio.jpg"
-                    alt="Бірка"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/15-portfolio.jpg    1x,
+                        ./images/15-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/15-portfolio-tab.jpg    1x,
+                        ./images/15-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/15-portfolio-mob.jpg    1x,
+                        ./images/15-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/15-portfolio.jpg"
+                      alt="Бірка"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -354,13 +531,35 @@
             <li class="portfolio__item">
               <a class="portfolio__link" href="#">
                 <div class="portfolio__top-wrap">
-                  <img
-                    class="portfolio__image"
-                    src="./images/16-portfolio.jpg"
-                    alt="Ноутбук"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/16-portfolio.jpg    1x,
+                        ./images/16-portfolio-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/16-portfolio-tab.jpg    1x,
+                        ./images/16-portfolio-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/16-portfolio-mob.jpg    1x,
+                        ./images/16-portfolio-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__image"
+                      src="./images/16-portfolio.jpg"
+                      alt="Ноутбук"
+                      width="450"
+                    />
+                  </picture>
                   <p class="portfolio__top-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Nihil voluptatum quibusdam sapiente fugiat veniam aliquid
@@ -383,18 +582,29 @@
       <div class="container footer__container">
         <div class="footer_address-soc">
           <div class="footer__address-wrapper">
-            <a class="logo footer__logo" href="./index.html">Web <span class="footer__logo-text">Studio</span></a>
+            <a class="logo footer__logo" href="./index.html"
+              >Web <span class="footer__logo-text">Studio</span></a
+            >
             <address class="address">
               <ul class="address__list">
                 <li class="address__item">
-                  <a class="address__link" href="https://goo.gl/maps/9E4ESz3H2E2rqb3K8" target="_blank"
-                    rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+                  <a
+                    class="address__link"
+                    href="https://goo.gl/maps/9E4ESz3H2E2rqb3K8"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
                 </li>
                 <li class="address__item">
-                  <a class="address__contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                  <a class="address__contact" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
                 </li>
                 <li class="address__item">
-                  <a class="address__contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                  <a class="address__contact" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
@@ -403,28 +613,44 @@
             <p class="footer__soc-text">Приєднуйтесь</p>
             <ul class="soc footer__soc-list">
               <li class="soc__item footer__soc-item">
-                <a class="soc__link footer__soc-link" href=""><svg class="soc__icon footer__soc-icon" width="20"
-                    height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg></a>
+                <a class="soc__link footer__soc-link" href=""
+                  ><svg
+                    class="soc__icon footer__soc-icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
               </li>
               <li class="soc__item footer__soc-item">
-                <a class="soc__link footer__soc-link" href=""><svg class="soc__icon footer__soc-icon" width="20"
-                    height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg></a>
+                <a class="soc__link footer__soc-link" href=""
+                  ><svg
+                    class="soc__icon footer__soc-icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
               </li>
               <li class="soc__item footer__soc-item">
-                <a class="soc__link footer__soc-link" href=""><svg class="soc__icon footer__soc-icon" width="20"
-                    height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg></a>
+                <a class="soc__link footer__soc-link" href=""
+                  ><svg
+                    class="soc__icon footer__soc-icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
               </li>
               <li class="soc__item footer__soc-item">
-                <a class="soc__link footer__soc-link" href=""><svg class="soc__icon footer__soc-icon" width="20"
-                    height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg></a>
+                <a class="soc__link footer__soc-link" href=""
+                  ><svg
+                    class="soc__icon footer__soc-icon"
+                    width="20"
+                    height="20"
+                  >
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
               </li>
             </ul>
           </div>
@@ -434,7 +660,13 @@
           <form class="caption__form">
             <div class="caption__input-wraper">
               <label class="caption__input-label" for="caption-email"></label>
-              <input class="caption__input" type="email" name="caption-email" id="caption-email" placeholder="E-mail" />
+              <input
+                class="caption__input"
+                type="email"
+                name="caption-email"
+                id="caption-email"
+                placeholder="E-mail"
+              />
             </div>
             <button type="submit" class="btn caption__button">
               Відправити

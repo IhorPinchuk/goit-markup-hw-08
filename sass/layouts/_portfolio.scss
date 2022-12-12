@@ -1,26 +1,26 @@
 .portfolio {
   padding-top: 60px;
-    padding-bottom: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-portfolio-color);
-    @media screen and (min-width: 1200px) {
-      padding-top: 94px;
-      padding-bottom: 94px;
-    }  
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .portfolio__nav {
   display: flex;
   flex-wrap: wrap;
-    
+
   margin-bottom: 40px;
   gap: 8px;
   @media screen and (min-width: 768px) {
-      justify-content: center;
-      margin-bottom: 30px;
-    }
-        @media screen and (min-width: 1200px) {
-          margin-bottom: 50px;
-        }
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__button {
@@ -53,15 +53,15 @@
 
 .portfolio__item {
   width: 100%;
-  
+
   background-color: var(--portfolio-item-bg-color);
   @media screen and (min-width: 768px) {
-      width: calc((100% - 30px) / 2);
-    }
-  
-    @media screen and (min-width: 1200px) {
-      width: calc((100% - 60px) / 3);
-    }
+    width: calc((100% - 30px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .portfolio__link {
@@ -78,6 +78,10 @@
 .portfolio__top-wrap {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio__image {
+  width: 100%;
 }
 
 .portfolio__top-text {
