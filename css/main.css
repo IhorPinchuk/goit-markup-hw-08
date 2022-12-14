@@ -674,7 +674,7 @@ body {
   padding-left: 40px;
   z-index: 1;
 }
-.mob-menu > .mob-menu_container {
+.mob-menu > .mob-menu__container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -687,7 +687,7 @@ body {
   }
 }
 
-.mob-menu_container {
+.mob-menu__container {
   width: 100%;
   margin: 0 auto;
 }
