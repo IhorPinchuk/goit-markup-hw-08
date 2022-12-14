@@ -650,6 +650,7 @@ body {
   height: 100vh;
   background-color: var(--bg-mob-menu);
   padding-top: 48px;
+  padding-bottom: 48px;
   padding-left: 40px;
   z-index: 1;
 }
@@ -659,7 +660,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
-  padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
   .mob-menu {
