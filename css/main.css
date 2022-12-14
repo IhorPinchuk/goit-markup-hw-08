@@ -660,6 +660,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
   .mob-menu {
