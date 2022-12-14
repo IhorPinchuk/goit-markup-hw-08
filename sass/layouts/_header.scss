@@ -197,14 +197,13 @@
   padding-bottom: 48px;
   padding-left: 40px;
   z-index: 1;
-
   >.mob-menu__container {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    // padding-bottom: 48px;
+    padding-bottom: 48px;
   }
 
   @media screen and (min-width: 768px) {
