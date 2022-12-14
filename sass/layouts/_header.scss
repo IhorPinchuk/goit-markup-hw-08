@@ -195,15 +195,15 @@
   background-color: var(--bg-mob-menu);
   padding-top: 48px;
   padding-bottom: 48px;
-    padding-left: 40px;
+  padding-left: 40px;
   z-index: 1;
-  >.mob-menu__container {
+  > .mob-menu__container {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-      }
+  }
 
   @media screen and (min-width: 768px) {
     display: none;
@@ -213,7 +213,7 @@
 .mob-menu__container {
   width: 100%;
   margin: 0 auto;
-  outline: 2px solid red;
+  // outline: 2px solid red;
 }
 
 .mob-menu__close {
