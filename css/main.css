@@ -1108,12 +1108,17 @@ body {
 @media screen and (min-width: 768px) {
   .footer_address-soc {
     display: flex;
+    justify-content: space-between;
+    padding-right: 74px;
+    padding-left: 61px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer_address-soc {
     margin-right: 93px;
     margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -1123,8 +1128,6 @@ body {
 @media screen and (min-width: 768px) {
   .footer__address-wrapper {
     width: calc((100% - 165px) / 2);
-    padding-left: 61px;
-    margin-right: 165px;
     margin-bottom: 0;
   }
 }
@@ -1132,7 +1135,6 @@ body {
   .footer__address-wrapper {
     width: 231px;
     margin-right: 70px;
-    padding-left: 0;
   }
 }
 
@@ -1154,17 +1156,6 @@ body {
 }
 
 /* footer__soc */
-@media screen and (min-width: 768px) {
-  .footer__soc {
-    padding-right: 74px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer__soc {
-    padding-right: 0;
-  }
-}
-
 .footer__soc-text {
   text-align: center;
   font-weight: 700;
